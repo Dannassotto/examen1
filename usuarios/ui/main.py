@@ -7,7 +7,7 @@ def mainMenu(op):
     *  MENU DE ADMINISTRACION    * 
     ***************************
     """
-    mainMenuOp= "1. Gestion de citas\n2 Registros de Usuarios\n3 Registro especialista\n4 Historial usuarios"
+    mainMenuOp= "1. Registrar usuario\n2 Historial"
     if(op!=4):
         print(title)
         print(mainMenuOp)
